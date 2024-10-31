@@ -1,0 +1,39 @@
+header {
+    padding-right: 1%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.buttons-container {
+    display: flex;
+    gap: 20px;  /* Espacio entre los botones */
+    background: #faf9f9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 99%;
+    justify-content: flex-end;
+    border: 2px solid black;  /* Agregado el borde negro */
+    align-items: center;  /* Centra verticalmente los botones */
+    height: fit-content;  /* Ajusta la altura al contenido */
+    box-sizing: border-box;  /* Incluye padding y border en el width total */
+}
+
+header .enlace {
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 160px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: rgb(248, 247, 247);
+    transition: background-color 0.3s;
+    margin: 0;  /* Elimina cualquier margen extra */
+}
+
+header .enlace:hover {
+    background-color: rgb(50, 50, 50);
+}

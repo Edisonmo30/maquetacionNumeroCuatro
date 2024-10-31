@@ -1,0 +1,101 @@
+/* Contenedor principal */
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    width: 500px;
+    border: 2px solid #000;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Contenedor del avatar */
+.avatar-container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.formulario {
+    width: 100%;
+    margin-top: 50px; 
+    padding-top: 5px; 
+}
+
+
+.inputs {
+    margin-bottom: 20px;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+}
+
+.inputs label {
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+.inputs input {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 12px;
+    box-sizing: border-box;
+}
+
+/* Botón de login */
+.login-boton {
+    width: 30%;
+    padding: 12px;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+.login-boton a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.login-boton:hover {
+    background-color: #333;
+}
+
+.registro {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.registro a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.registro a:hover {
+    text-decoration: underline;
+}
