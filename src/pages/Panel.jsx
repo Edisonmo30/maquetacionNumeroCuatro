@@ -1,21 +1,33 @@
-import { Link, Outlet } from "react-router-dom";
-import './Panel.css';
+import { Link } from "react-router-dom"
+import './Panel.css'
 
 const Panel = () => {
   return (
-    <main className="dashboard">
-      <header className="encabezado">
-        <div className="buttons-container">
-          <Link className='enlace' to="/Login">Cerrar Sesión</Link>
-        </div>
-      </header>
-      <section className="panel-content">
-        <span className="glass"></span>
-        <h2>Este es el panel principal</h2>
-        <Outlet />
-      </section>
-    </main>
-  );
-};
+      <main className="container">
+            <header className="encabezado">
+                <div className="buttons-container">
+                    <Link className='enlace' to="/login">Cerrar Sesión</Link>
+                </div>
+            </header>
+            
+            <div className="right-container">
+                <aside className="lateral-aside">
+                    <button className="lateral-btn">Servicios</button>
+                    <button className="lateral-btn">Contactos</button>
+                </aside>
+            </div>
+            
+            <h2 className="title-panel">Este es el panel principal</h2>
+            <div className="container-panel-wrapper">
+                <aside className="container-panel">
+                </aside>
+                <aside className="container-panel">
+                </aside>
+                <aside className="container-panel">
+                </aside>
+            </div>
+      </main>
+  )
+}
 
-export default Panel;
+export default Panel
