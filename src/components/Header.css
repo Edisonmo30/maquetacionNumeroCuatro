@@ -20,7 +20,7 @@ header {
     box-sizing: border-box;  /* Incluye padding y border en el width total */
 }
 
-header .enlace {
+header .enlaceUno {
     background-color: rgb(11, 11, 11);
     display: flex;
     justify-content: center;
